@@ -12,9 +12,8 @@ body {
     #dd5789 51.77%,
     #7a2c9e 129.35%
   );
-  font-family: sans-serif;
+  font-family: Roboto;
   overflow-y: hidden;
-  display: flex;
   justify-content: center;
   align-items: center;
 }
@@ -36,10 +35,6 @@ button:hover {
   transform: scale(1.05);
 }
 
-li {
-  list-style: none;
-}
-
 a {
   text-decoration: none;
   height: fit-content;
@@ -50,11 +45,4 @@ a {
 a:hover {
   opacity: 1;
   text-decoration: none;
-}
-
-.Hello {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 20px 0;
 }
